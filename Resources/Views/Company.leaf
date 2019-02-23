@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Logo</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>Company Name</th>
+        <th>Company domain</th>
+        <th>Logo</th>
+    </tr>
+    #for(company in companies) {
+    <tr>
+        <td>#(company.name)</td>
+        <td>#(company.domain)</td>
+        <td><img src=#(company.logo)></td>
+    </tr>
+    }
+</table>
+</body>
+</html>
